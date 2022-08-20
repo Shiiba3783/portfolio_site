@@ -1,0 +1,13 @@
+header h1 {
+    font-family: 'Pinyon Script', cursive;
+    margin: 0;
+}
+header a {
+    color: black;
+}
+header {
+    border-bottom: 0.2px groove #ffffff;
+}
+.mv {
+    height: 50vh;
+}
