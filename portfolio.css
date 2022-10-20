@@ -1,3 +1,16 @@
+body {
+    padding-top: 80px;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 34px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
 header h1 {
     font-family: 'Pinyon Script', cursive;
     margin: 0;
@@ -10,4 +23,51 @@ header {
 }
 .mv {
     height: 50vh;
+}
+.work-photo {
+    width: 700px;
+    height: auto;
+}
+.work h3 {
+    position: relative;
+    padding-left: 1em;
+    margin-top: 2em;
+}
+.work h3::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    content: "";
+    border-radius: 3px;
+    background-color: #333;
+}
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -50px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.skill-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 48%;
+}
+.recommend {
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+.expansion {
+   justify-content: flex-end;
+}
+.expansion a {
+    margin-right: 60px;
+    margin-top: -80px;
+    color: #d3d3d3;
 }

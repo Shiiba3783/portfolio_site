@@ -2,17 +2,19 @@
     <head>
         <meta charset = "utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&amp;display=swap" rel="stylesheet">
         <link rel = "stylesheet" href = "portfolio.css">
     </head>
-    <body >
-        <header class = "sticky-top">
+    <body>
+        <header class = "fixed-top bg-white">
             <div class = "container">
                 <div class = "row my-3 align-items-center">
-                    <h1><a href = "#">Yuto Shiiba</a></h1>
+                    <h1>Yuto Shiiba</h1>
                     <nav class = "ml-auto row">
                         <a href = "#profile" class = "nav-link">PROFILE</a>
-                        <a href = "#works" class = "nav-link">WORKS</a>
+                        <a href = "#work" class = "nav-link">WORK</a>
+                        <a href = "#skill" class = "nav-link">SKILL</a>
                     </nav>
                 </div>
             </div>
@@ -23,12 +25,115 @@
             </section>
             
             <section class = "container-fluid profile bg-light" id = "profile">
-                <h1 class = "text-center">PROFILE</h1>
+                <article class = "container p-2">
+                    <h2 class = "text-center">PROFILE</h2>
+                    <p>
+                        椎葉優都と申します。</br>
+                        未経験からプログラミングスクールで学び、Webエンジニアを目指しています。</br>
+                        『一度始めたら全力でやりきる』をモットーに、スキルアップできるよう努力しています。
+                    </p>
+                    <dl>
+                        <dt>前職</dt>
+                        <dd>わかやま農業協同組合　販売担当</dd>
+                        <dt>最終学歴</dt>
+                        <dd>近畿大学経営学部経営学科</dd>
+                    </dl>
+                </article>
             </section>
             
-            <section class = "container-fluid work" id = "works">
-                <h1 class = "text-center">WORKS</h1>
+            <section class = "container-fluid work" id = "work">
+                <article class = "container p-2">
+                    <h2 class = "text-center">WORK</h2>
+                    <div class = "mt-5">
+                        <a href = "https://biker.shiiba3783.com/">
+                            <img src = "biker.png" alt = "biker" class = "work-photo">
+                        </a>
+                        <p class = "font-weight-bold">BIKER</p>
+                    </div>
+                    <p>バイクに特化した画像投稿サイトです。</p>
+                    <h3>URL</h3>
+                    <p>
+                        <a href = "https://biker.shiiba3783.com/posts">https://biker.shiiba3783.com/posts</a>
+                    </p>
+                    <h3>ゲストアカウント</h3>
+                    <p>
+                        メールアドレス：aaa@aaa</br>
+                        パスワード：aaaaaaaa
+                    </p>
+                    <h3>GitHubリポジトリ</h3>
+                    <p>
+                        <a href = "https://github.com/Shiiba3783/Biker">https://github.com/Shiiba3783/Biker</a>
+                    </p>
+                    <h3>サイトの特徴</h3>
+                    <p>
+                        画像の投稿、タグ機能をつけての検索ができる。</br>
+                        いいね機能、フォロー機能。
+                    </p>
+                    <h3>コンセプト</h3>
+                    <p>
+                        laravel、Bootstrapを使ってバイクに特化した画像投稿サイトを作りました。</br>
+                        まだまだ改善するところはありますが、バイカーのコミュニケーションサイトとして使いやすいと思うサイトが無かったので作ってみました。
+                    </p>
+                </article>
+            </section>
+            
+            <section class = "container-fluid bg-light skill" id = "skill">
+                <article class = "container p-2">
+                    <h2 class = "text-center">SKILL</h2>
+                    <div class = "row p-3">
+                        <div class = "skill-list">
+                            <div class = "skill-item">
+                                <div class = "skill-body">
+                                    <h3 class = "skill-name">バッグエンド</h3>
+                                    <ul class = "skill-text">
+                                        <li>PHP7</li>
+                                        <li>Laravel6</li>
+                                        <li>MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class = "skill-item">
+                                <div class = "skill-body">
+                                    <h3 class = "skill-name">フロントエンド</h3>
+                                    <ul class = "skill-text">
+                                        <li>HTML5/CSS3</li>
+                                        <li>Bootstrap4</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class = "skill-item">
+                                <div class = "skill-body">
+                                    <h3 class = "skill-name">インフラ</h3>
+                                    <ul class = "skill-text">
+                                        <li>ConoHa WING</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class = "skill-item">
+                                <div class = "skill-body">
+                                    <h3 class = "skill-name">その他</h3>
+                                    <ul class = "skill-text">
+                                        <li>Linux</li>
+                                        <li>Git</li>
+                                        <li>GitHub</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <iframe src="recommend.pdf" class = "recommend" allowfullscreen target="_blank"></iframe>
+                    </div>
+                    <div class = "row expansion">
+                        <a href = "recommend.pdf" class = "expansion" target="_blank"><i class="fa-solid fa-expand fa-3x"></i></a>
+                    </div>
+                </article>
             </section>
         </main>
+        
+        <footer class = "bg-secondary p-3">
+            <div class = "text-center">
+                <small>Copyright &copy; Yuto Shiiba All Rights Reserved.</small>
+            </div>
+        </footer>
     </body>
 </html>
